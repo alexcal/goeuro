@@ -5,14 +5,13 @@ import java.util.List;
 import com.goeuro.cl.service.model.location.LocationModel;
 
 /**
- * Location service.
- *
+ * Location service interface.
  */
 public interface LocationService {
 
     /**
      * Method that returns a list of {@link LocationModel}s, based on the city
-     * name
+     * name.
      * 
      * @param cityName
      *            the name of the city. The parameter should not be null.
