@@ -14,7 +14,7 @@ public class LocationModel {
     private String name;
     @XmlElement
     private String type;
-
+    @XmlElement(name = "geo_position")
     private GeoPosition geoPosition;
 
     public GeoPosition getGeoPosition() {
