@@ -9,8 +9,8 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>command-line</module>
-        <module>locations-api</module>
+        <module>../command-line</module>
+        <module>../locations-api</module>
     </modules>
 
     <properties>

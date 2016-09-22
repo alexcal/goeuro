@@ -65,6 +65,10 @@ public class MainEntry {
      * @param args
      */
     private static void parseArgs(String[] args) {
+        if (args.length < 1) {
+            log.error("Please provide the city name!");
+            System.exit(-1);
+        }
         location = args[0];
     }
 
